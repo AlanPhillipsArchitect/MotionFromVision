@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WindowsFormsSerialPort.exe" version="1.0.0.0" publicKeyToken="c088dd815ba95574" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Icons8-Windows-8-Industry-Stepper-Motor.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WindowsFormsSerialPort" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WindowsFormsSerialPort.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsFormsSerialPort.exe" size="614400">
+      <assemblyIdentity name="WindowsFormsSerialPort" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ygOweR3ZZ/aEXiBDW557Cd5hL0oREmwE1CHi/8+3k5U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Icondesigner.net-Hyperion-Smart-Folder.ico" size="353118">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>it6HwfzciKdE6EPkZa6jIQbUCNN55y8tkzf1hbHNnIE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Icons8-Windows-8-Industry-Stepper-Motor.ico" size="164962">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ksYywyERTTFLwZZ5LLAAHecdemhti/tnmG6sZqlPMIY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WindowsFormsSerialPort.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=AP-LAPTOP\admin" issuerKeyHash="e71ce335d1f1a05abb6ff52ab23a07f0a7c1dd93" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>DeU6hXUPpCM19o+NUuLtKULgP5mkV5L6g2BqaLiBXOc=</DigestValue></Reference></SignedInfo><SignatureValue>JhyjQv+L9h77es6Gc6nmOC6qyePhA/VFgGxHzBmWqUPBa1id7pRPgPg4FJqcTmLieWVAhztaBUSw0gIiRcfQ3oprIwXo8gxdo9IrSgQRf4berk68qDM5jLYMqnCNsQYVfrpMcFPLq3mkMJolR3HXojNxkw6ftA6eN5sXizUeX4k=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uTkIiURGr9E+FCdiyJILZl77BArMDrKZPr8YZbhRGbUm5t2VN2ZVm/AHsz5qn56rpn9vrRNjMBB9poJvv2GWKDjvW/K7J3oqkmCOgXgogrE3G4Ve0VJT5jiEXAiEY5EIeKCZBNTfrUjv4PkptVxjk0IrqzWUzKst89vsedTqJXc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e75c81b8686a6083fa9257a4993fe04229ede2528d8ff63523a40f75853ae50d" Description="" Url=""><as:assemblyIdentity name="WindowsFormsSerialPort.exe" version="1.0.0.0" publicKeyToken="c088dd815ba95574" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AP-LAPTOP\admin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>L01pD+GffEVluWtg5Jf90SGXERlvdO+WU3xY3o3AAbY=</DigestValue></Reference></SignedInfo><SignatureValue>MGDCsfJRGa6A/4baLc93epHTW4lk07GgTI8q3tVD0yIZqPApKKm91WNKrTsY7xldnjo4P3SxTANWh+BJvsphnE81f3TxvtfDpKK4ZzjXL6vhJgxWwLcX2dmNaMRNUGnazYuIwx1H3hJANvFxYNmMQB3J3Jx8MyAaLyq8v4aGOBA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uTkIiURGr9E+FCdiyJILZl77BArMDrKZPr8YZbhRGbUm5t2VN2ZVm/AHsz5qn56rpn9vrRNjMBB9poJvv2GWKDjvW/K7J3oqkmCOgXgogrE3G4Ve0VJT5jiEXAiEY5EIeKCZBNTfrUjv4PkptVxjk0IrqzWUzKst89vsedTqJXc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQPW7M7hWkr65LOhGA6ymbOTANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4AQQBQAC0ATABBAFAAVABPAFAAXABhAGQAbQBpAG4wHhcNMTUwNDE3MjIxNTQ1WhcNMTYwNDE3MDQxNTQ1WjApMScwJQYDVQQDHh4AQQBQAC0ATABBAFAAVABPAFAAXABhAGQAbQBpAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALk5CIlERq/RPhQnYsiSC2Ze+wQKzA6ymT6/GGW4URm1JubdlTdmVZvwB7M+ap+eq6Z/b60TYzAQfaaCb79hlig471vyuyd6KpJgjoF4KIKxNxuFXtFSU+Y4hFwIhGORCHigmQTU361I7+D5KbVcY5NCK6s1lMyrLfPb7HnU6iV3AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAfiKjs+9Fmxt8Y/sEwUuhiFRoGo7Xbp/uwBdTv29HwmjjAIJjkEOF3lXwnau7DVTdiFWTtgM5NhpWxI/PFr2CI1MVMkuLhZsipKUkAwM8cqEnQrSEu5dVWmGRnAPvb8SZ867GLjunrd2ogTwOxjC9gd2J0rTIz9Q4U18EK5O+4wc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
